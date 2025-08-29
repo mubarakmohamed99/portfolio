@@ -1,0 +1,19 @@
+title: Mubarak Mohamed - Cybersecurity Analyst
+description: Portfolio website of Mubarak Mohamed, Cybersecurity Analyst
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+exclude: ["README.md", "LICENSE", "CNAME"]
+
+github:
+  is_project_page: true
+  source:
+    branch: master  # the main code branch
+destination: _site
